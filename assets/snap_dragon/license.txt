@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snap Dragon - PVZ Garden Warfare
+* source:	https://sketchfab.com/3d-models/snap-dragon-pvz-garden-warfare-32e659acbc50499ca26a4f8b365faef7
+* author:	Nazar Okruzhko (Назар Окружко) (https://sketchfab.com/Deduska_1947)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snap Dragon - PVZ Garden Warfare" (https://sketchfab.com/3d-models/snap-dragon-pvz-garden-warfare-32e659acbc50499ca26a4f8b365faef7) by Nazar Okruzhko (Назар Окружко) (https://sketchfab.com/Deduska_1947) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

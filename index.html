@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR-App</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="./scripts/main.js" defer></script>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style="margin: 0px; overflow: hidden">
+    <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5;">
+      <a-marker type="barcode" value="1">
+        <a-light a-light type="ambient" distance="1" color="#eee" position="1 2 1"> </a-light>
+        <a-light a-light type="point" distance="1" color="#efefef" position="0 5 0"> </a-light>
+        <a-entity gltf-model="#plant"></a-entity>
+        <a-entity
+          text="value: Kasper Frydensberg; color: #FAFAFA; width: 5; anchor: align"
+          position="-1.5 0.2 1"
+          scale="1.5 1.5 1.5"
+        ></a-entity>
+      </a-marker>
+      <a-assets>
+        <a-asset-item
+          id="plant"
+          src="./assets/plantdude_converted-v1/plantdude_converted.gltf"
+        ></a-asset-item>
+      </a-assets>
+      <a-entity camera></a-entity>
+    </a-scene>
+    <section style="position: absolute; top: 0; left: 0; background-color: white">
+      <p>
+        "Snap Dragon - PVZ Garden Warfare" (https://skfb.ly/pzE6M) by Nazar Okruzhko (Назар Окружко) is
+        licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+      </p>
+    </section>
+  </body>
+</html>
