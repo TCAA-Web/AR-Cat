@@ -11,11 +11,9 @@
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.6.0/dist/aframe-extras.min.js"></script>
   </head>
   <body class="mainContainer">
-    <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5;">
+    <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5; smooth: true;">
       <!--Cat Marker Code-->
       <a-marker type="barcode" value="1">
-        <a-light a-light type="ambient" distance="1" color="#eee" position="1 2 1"> </a-light>
-        <a-light a-light type="point" distance="1" color="#efefef" position="0 5 0"> </a-light>
         <a-entity animation-mixer="clip: idle" position="0 0 0" scale="40 40 40" gltf-model="#cat"></a-entity>
         <a-entity
           text="value: Kasper Frydensberg; color: #333333; width: 4; anchor: align"
@@ -25,8 +23,6 @@
       </a-marker>
       <!--Robot Marker Code-->
       <a-marker type="barcode" value="0">
-        <a-light a-light type="ambient" distance="1" color="#eee" position="1 2 1"> </a-light>
-        <a-light a-light type="point" distance="1" color="#efefef" position="0 5 0"> </a-light>
         <a-entity position="0 0 0" scale="1 1 1" gltf-model="#robot"></a-entity>
         <a-entity
           text="value: Bo Nicolaisen; color: #333333; width: 4; anchor: align"
